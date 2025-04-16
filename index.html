@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>TFT Fight Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bench">
+            <img class="unit" data-unit="Alistar" src="https://ap.tft.tools/img/cd14/face/TFT14_Alistar.jpg?w=84">
+            <img class="unit" data-unit="DrMundo" src="https://ap.tft.tools/img/cd14/face/TFT14_DrMundo.jpg?w=84">
+        </div>
+
+        <div class="board">
+            <div class="hex-row">
+                <div class="hex" data-row="0" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="0" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="0" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="0" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="0" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="0" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="0" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+            <div class="hex-row">
+                <div class="hex" data-row="1" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="1" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="1" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="1" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="1" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="1" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="1" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+            <div class="hex-row">
+                <div class="hex" data-row="2" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="2" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="2" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="2" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="2" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="2" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="2" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+            <div class="hex-row">
+                <div class="hex" data-row="3" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="3" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="3" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="3" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="3" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="3" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="3" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+            <svg class="zigzag-divider"; width="100%" height="10" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <path d="M 0 0 100 0" fill="none" stroke="black" stroke-width="5"></path>
+            </svg> 
+            <div></div> 
+            <div class="hex-row">
+                <div class="hex" data-row="4" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="4" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="4" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="4" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="4" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="4" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="4" data-col="6"><div class="inner-hex"></div></div>
+            </div>  
+            <div class="hex-row">
+                <div class="hex" data-row="5" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="5" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="5" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="5" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="5" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="5" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="5" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+            <div class="hex-row">
+                <div class="hex" data-row="6" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="6" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="6" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="6" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="6" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="6" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="6" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+            <div class="hex-row">
+                <div class="hex" data-row="7" data-col="0"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="7" data-col="1"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="7" data-col="2"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="7" data-col="3"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="7" data-col="4"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="7" data-col="5"><div class="inner-hex"></div></div>
+                <div class="hex" data-row="7" data-col="6"><div class="inner-hex"></div></div>
+            </div>
+        </div>
+    </div>
+    
+
+<script>
+
+let units = document.getElementsByClassName("unit");
+let hexes = document.getElementsByClassName("inner-hex");
+let selected = null;
+
+for (unit of units) {
+    unit.addEventListener("dragstart", function(e) {
+        selected = e.target
+    })
+}
+
+for (hex of hexes) {
+    hex.addEventListener("dragover", function(e) {
+        e.preventDefault();
+    })
+    hex.addEventListener("drop", function(e) {
+        if (selected) {
+            const fromHex = selected.closest(".inner-hex");
+            const toHex = e.currentTarget;
+
+            const targetUnit = toHex.querySelector(".unit");
+            console.log(targetUnit);
+
+            if (!fromHex) {
+                if (targetUnit) targetUnit.remove();
+
+                const clone = selected.cloneNode(true);
+                clone.addEventListener("dragstart", function(e) {
+                    selected = e.target;
+                });
+
+                toHex.appendChild(clone);
+            } else {
+                if (targetUnit) {
+                    // Swap units
+                    fromHex.appendChild(targetUnit);
+                    toHex.appendChild(selected);
+                } else {
+                    // Target hex is empty — just move
+                    toHex.appendChild(selected);
+                }
+            }
+        }
+        
+    })
+}
+
+</script>
+</body>
+</html>
